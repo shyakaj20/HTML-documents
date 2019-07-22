@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Registration Form</title>
+	 <style>
+	 
+	 body{
+	
+	background-color:#e8f3f8;
+	font:1em/1.5 sans-serif;
+	margin:0;
+	padding:0;
+}
+h1{
+	text-align:center;
+	font-size:50px;
+	color:steelblue;
+}
+form{
+	
+	margin:20px auto;
+	width:320px;
+	color:steelblue;
+}
+input {
+	
+	padding:10px;
+	font-size:inherit;
+	
+}
+input[type="text"]{
+	
+	display:block;
+	margin-bottom:25px;
+	width:100%;
+	border:2px solid steelblue;
+	background:#FAF6D9;
+}
+input[type="password"]{
+	
+	display:block;
+	margin-bottom:25px;
+	width:100%;
+	border:2px solid steelblue;
+    background:#FAF6D9;
+}
+input[type="email"]{
+	
+	display:block;
+	margin-bottom:25px;
+	width:100%;
+	border:2px solid steelblue;
+	background:#FAF6D9;
+}
+input[type="radio"]
+{
+	margin:0 8px 25px 18px;
+}
+input[type="radio"]:first-child{
+	
+	margin-left:0;
+}
+input[type="submit"]
+{
+	height:38px;
+	background:#e8491d;
+	border:none;
+	padding-left:20px;
+	padding-right:20px;
+	color:#fff;
+	width:150px;
+}
+input[type="submit"]:focus
+{
+	width:150px;
+	height:45px;
+	border:solid steelblue;
+	background:white;
+	color:steelblue;
+}
+input:focus{
+	
+	background:white;
+}
+input[type="radio"]:checked + label
+{
+	font-weight:bold;
+	font-size:18px;
+	
+}
+#navbar{
+
+width:100%;
+height:50px;
+background:#395665;
+color:#FFFFFF;
+}
+#navbar nav
+{
+margin:0;
+list-style:none;	
+}
+#navbar nav li
+{
+	float:left;
+	width:156.25px;
+	height:50px;
+	text-align:center;
+	font-size:22px;
+    position:relative;
+	line-height:50px;
+	
+}
+#navbar nav li a
+{
+	text-decoration:none;
+	color:white;
+	display:block;
+	background-color:#395665;
+	 
+
+}
+#navbar nav li a:hover
+{
+	background-color:#9d6e5c;
+	font-weight:bolder;
+}
+#navbar nav li nav li {
+	display:none;
+	
+}
+#navbar nav li:hover nav li
+{
+	display:block;
+	
+}
+.menu li a:link {
+    color: red;
+}
+
+
+a:visited {
+    color: green;
+}
+
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: blue;
+}
+.footer{
+width:100%;
+height:70px;
+background-color:gray;
+float:left;
+color:#fff;
+text-align:center;
+clear:both;
+padding:0;
+margin:0;
+}
+     </style>
+     </head>
+     <body>
+         <div id="navbar">
+             <nav>
+                 <li><a href="css1.html">HOME|</a></li>
+                 <li><a href="home.html">ABOUT|</a></li>
+                 <li><a href="faqs.html">FAQS|</a></li>
+                 <li><a href="contact.html">CONTACT</a></li>
+             </nav>
+            </div>
+            <h1>Sign Up Form</h1>
+            <form>
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <input type="password" placeholder="Confirm Password">
+                <div id="">
+                    <input type="radio" id="male" name="gender"><label>Male</label>
+                    <input type="radio" id="female" name="gender"><label>Female</label>
+                </div>
+                <input type="submit" value="Submit" name="Submit">
+            </form>
+        </div>
+        <div class="footer">
+            <h2 style="color:">&copy;TECH ACADEMY 2019 ALL RIGHTS RESERVED</h2>
+        </div>
+</body>
+</html>
